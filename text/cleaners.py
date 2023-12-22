@@ -102,6 +102,9 @@ def english_cleaners(text):
   return text
 
 
+def raw_cleaners(text):
+  return text
+
 def japanese_cleaners(text):
   '''Pipeline for Japanese text.'''
   sentences = re.split(_japanese_marks, text)
